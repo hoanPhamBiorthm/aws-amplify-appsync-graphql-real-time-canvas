@@ -3,3 +3,9 @@ type Canvas @model {
   clientId: String!
   data: String!
 }
+
+type Todo @model{
+  id: ID!
+  name: String!
+  description: String!
+}
